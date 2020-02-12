@@ -49,16 +49,6 @@ System.out.println(anotherVal); //will print 10 this time as antherVal was incre
 
 compound operators
 
-operators are evaluated in the following order
-- postfix x++ x--
-- prefix ++x --x
-- multiplicative * / %
-- additive + -
-
-- operators of equal precedence are evaluated from left to right
-- can override precedence with use of parenthesis
-- nested parenthesis are evaluated from inside out
-
 - combines operation and assignment
 - it applies the result of the right side to the left side
 - stores that result in variable on left sife
@@ -71,3 +61,13 @@ myVal -= 5;// this is the same as typing myVal = myVal - 5;
 *******************************
 
 operator precedence
+
+operators are evaluated in the following order
+- postfix x++ x--
+- prefix ++x --x
+- multiplicative * / %
+- additive + -
+
+- operators of equal precedence are evaluated from left to right
+- can override precedence with use of parenthesis
+- nested parenthesis are evalur
