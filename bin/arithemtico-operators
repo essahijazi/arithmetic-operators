@@ -57,3 +57,17 @@ e.g.
 
 int myVal = 50;
 myVal -= 5;// this is the same as typing myVal = myVal - 5;
+
+*******************************
+
+operator precedence
+
+operators are evaluated in the following order
+- postfix x++ x--
+- prefix ++x --x
+- multiplicative * / %
+- additive + -
+
+- operators of equal precedence are evaluated from left to right
+- can override precedence with use of parenthesis
+- nested parenthesis are evalur

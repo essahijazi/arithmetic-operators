@@ -51,7 +51,7 @@ compound operators
 
 - combines operation and assignment
 - it applies the result of the right side to the left side
-- stores that result in variable on left sife
+- stores that result in variable on left side
 
 e.g.
 
@@ -70,4 +70,4 @@ operators are evaluated in the following order
 
 - operators of equal precedence are evaluated from left to right
 - can override precedence with use of parenthesis
-- nested parenthesis are evalur
+- nested parenthesis are evaluated from the inside out
