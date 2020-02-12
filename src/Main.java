@@ -56,6 +56,27 @@ public class Main {
 		int val2 = 40;
 		anotherVal *= val2 / val1; // anotherVal's value will be 6. same as anotherVal = anotherVal * (val2 / val1)
 		System.out.println(anotherVal);
+		
+		
+		/*OPERATOR PRECEDENCE*/
+		
+		int valA = 21;
+		int valB = 6;
+		int valC = 3;
+		int valD = 1;
+		
+		int result1 = valA - valB / valC;
+		int result2 = (valA - valB) / valC;
+		
+		System.out.println(result1);
+		System.out.println(result2);
+		
+		int result3 = valA / valC * valD + valB;
+		int result4 = valA / (valC * (valD + valB));
+		
+		System.out.println(result3);
+		System.out.println(result4);
+		
 	}
 
 }
